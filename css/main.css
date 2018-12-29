@@ -1393,7 +1393,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-  background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+  background: #151515 url(../images/broken-bulb.jpg) no-repeat center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -1900,11 +1900,12 @@ header .logo a {
 }
 #portfolio .folio-item {
   padding: 0;
-  position: relative;
+  position: absolute;
   overflow: hidden;
 }
 #portfolio .folio-item img {
   vertical-align: middle;
+  /* padding: 10px; */
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
