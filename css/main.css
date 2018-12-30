@@ -937,7 +937,7 @@ input::-moz-focus-inner {
  *
  * ---------------------------------------------------------------------
  */
-.stats-tabs {
+/* .stats-tabs {
   padding: 0;
   margin: 3rem 0;
 }
@@ -968,7 +968,7 @@ input::-moz-focus-inner {
   font-size: 1.4rem;
   font-family: "poppins-regular", sans-serif;
   color: #888888;
-}
+} */
 
 /**
  * skillbars - (_skillbars.scss)
@@ -2520,6 +2520,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 footer {
+  margin-top: 15rem;
   padding-bottom: 3rem;
   font-size: 1.4rem;
   font-family: "poppins-regular", sans-serif;
