@@ -64,8 +64,7 @@ a:focus,
 a:active,
 i:hover,
 i:focus,
-i:active,
-.icon {
+i:active {
   color: #ff0077;
   outline: 0;
 }
