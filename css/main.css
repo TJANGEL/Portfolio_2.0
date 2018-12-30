@@ -61,7 +61,10 @@ a:visited {
 }
 a:hover,
 a:focus,
-a:active {
+a:active,
+i:hover,
+i:focus,
+i:active {
   color: #ff0077;
   outline: 0;
 }
