@@ -968,6 +968,10 @@ input::-moz-focus-inner {
  * skillbars - (_skillbars.scss)
  * -------------------------------------------------------------------
  */
+
+.skills {
+  color: #ff0077;
+}
 .skill-bars {
   list-style: none;
   margin: 6rem 0 3rem;
