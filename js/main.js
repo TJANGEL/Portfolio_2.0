@@ -237,28 +237,31 @@
    ------------------------------------------------------- */
   //   const API_KEY = process.env.GOOGLE_MAPS_API;
 
-  //   function initMap() {
-  //     // Map options
-  //     var options = {
-  //       zoom: 12,
-  //       center: { lat: 39.9526, lng: -75.1652 }
-  //     };
+  // const API_KEY =
+  //   "https://maps.googleapis.com/maps/api/js?key=AIzaSyBhAMzZH0icX8a0OjKbrqO9P1qucyMxoy0&callback=initMap";
 
-  //     // New map
-  //     var map = new google.maps.Map(document.getElementById("map"), options);
+  // function initMap() {
+  //   // Map options
+  //   var options = {
+  //     zoom: 12,
+  //     center: { lat: 39.9526, lng: -75.1652 }
+  //   };
 
-  //     // Listen for click on map
-  //     google.maps.event.addListener(map, "click", function(event) {
-  //       // Add marker
-  //       addMarker({ coords: event.latLng });
-  //     });
+  //   // New map
+  //   var map = new google.maps.Map(document.getElementById("map"), options);
 
+  //   // Listen for click on map
+  //   google.maps.event.addListener(map, "click", function(event) {
   //     // Add marker
-  //     var marker = new google.maps.Marker({
-  //       position: { lat: 39.9526, lng: -75.1652 },
-  //       map: map
-  //     });
-  //   }
+  //     addMarker({ coords: event.latLng });
+  //   });
+
+  //   // Add marker
+  //   var marker = new google.maps.Marker({
+  //     position: { lat: 39.9526, lng: -75.1652 },
+  //     map: map
+  //   });
+  // }
 
   /*----------------------------------------------------- */
   /* Back to top
